@@ -20,6 +20,10 @@ task :deploy_to_acceptance_test do
   puts "Deploy to Acceptance test"
 end
 
+task :fix_documentation do
+  puts "Fix documentation!"
+end
+
 task :deploy_to_production do
   puts "Deploy to production!"
 end
